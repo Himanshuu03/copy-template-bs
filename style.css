@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav-color{
+    background-color: rgb(0,107,182);
+}
+.first-nav{
+    color: rgb(2,71,118);
+    margin-bottom: 0;
+}
+.second-nav{
+    color:rgb(0,107,182);
+    margin-bottom: 0;
+}
+.nav-border{
+    border-bottom: 7px solid rgb(211,211,211);
+}
+.why-color{
+    color: rgb(111,111,111);
+    letter-spacing: 1px;
+}
+.why-color-2{
+    color:rgb(144,143,143);
+    letter-spacing: 1px;
+}
+.why-img-size img{
+    border-radius: 50%;
+}
+.border-card{
+    border-left: 2px solid rgb(207,207,207);
+    border-right: 2px solid rgb(207,207,207);
+}
+.below-why{
+    background-color: rgb(241,241,241);
+}
+.below-why2{
+    background-color:rgb(189,189,189);
+}
+.below-why-text{
+    word-spacing: 2px;
+}
+.user-img{
+    background-image:url(./ASSESTS/user2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95px;
+    width: 95px;
+    border-radius: 50%;
+    border: 7px solid rgb(227,227,227);
+    margin-top: -1.4rem;
+}
+.testimonial-color{
+    background-color: rgb(0,107,182);
+}
+.testimonial-card-color{
+    background-color: rgb(1,86,166);
+}
+@media only screen and (max-width:767px){
+    .border-card{
+        border: none;
+    }
+}
