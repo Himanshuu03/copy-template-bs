@@ -59,6 +59,9 @@
 .testimonial-card-color{
     background-color: rgb(1,86,166);
 }
+.pointer{
+    cursor: pointer;
+}
 @media only screen and (max-width:767px){
     .border-card{
         border: none;
